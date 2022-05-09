@@ -1,3 +1,5 @@
+package GioiThieuJava;
+
 import java.util.Scanner;
 public class HienThiLoiChao {
     public static void main(String[] args) {

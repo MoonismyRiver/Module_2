@@ -1,3 +1,5 @@
+package GioiThieuJava;
+
 import java.util.Scanner;
 
 public class KiemTraNamNhuan {

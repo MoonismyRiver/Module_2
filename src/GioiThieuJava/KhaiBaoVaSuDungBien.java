@@ -1,3 +1,5 @@
+package GioiThieuJava;
+
 public class KhaiBaoVaSuDungBien {
     public static void main(String[] args) {
         int i=10;
