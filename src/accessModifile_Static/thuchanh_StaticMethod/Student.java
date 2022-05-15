@@ -6,18 +6,18 @@ public class Student {
     private String name;
     private static String college = "BBDIT";
 
-    //constructor to initialize the variable
+    //khởi tạo biến
     Student(int r, String n) {
         rollno = r;
         name = n;
     }
 
-    //static method to change the value of static variable
+    //static method thay đổi giá trị cho biến
     static void change() {
         college = "CODEGYM";
     }
 
-    //method to display values
+    //phương thức để hiển thị giá trị
     void display() {
         System.out.println(rollno + " " + name + " " + college);
     }
