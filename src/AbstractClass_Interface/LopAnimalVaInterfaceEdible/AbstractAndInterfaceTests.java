@@ -1,0 +1,2 @@
+package AbstractClass_Interface.LopAnimalVaInterfaceEdible;public class AbstractAndInterfaceTests {
+}
