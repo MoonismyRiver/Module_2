@@ -2,7 +2,7 @@ package ThuatToanSapXep;
 
 import java.util.Scanner;
 
-public class BubbleSortByStep {
+public class InsertionSortByStep {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập list size :");
@@ -18,7 +18,7 @@ public class BubbleSortByStep {
         }
         System.out.println("\nBắt đầu quá trình sắp xếp...");
         bubbleSortByStep(list);
-            }
+    }
     public static void bubbleSortByStep(int[] list){
         boolean needNextPass = true;
         for (int k = 1; k < list.length && needNextPass; k++) {
@@ -49,4 +49,3 @@ public class BubbleSortByStep {
 
     }
 }
-
