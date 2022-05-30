@@ -1,2 +1,4 @@
-package QuanLiPhongTro;public class SoftByID {
+package QuanLiPhongTro;
+
+public class SoftByID {
 }

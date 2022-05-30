@@ -2,18 +2,18 @@ package AbstractClass_Interface.Comparable_LopHinhHoc;
 
 import KeThua.ThucHanh_HeDoiTuongHinhHoc.Shape;
 
-public class Cycle extends Shape {
+public class Circle extends Shape {
     private  double radius=1.0;
 
-    public Cycle() {
+    public Circle() {
 
     };
 
-    public Cycle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
-    public Cycle(String color, boolean filled, double radius) {
+    public Circle(String color, boolean filled, double radius) {
         super(color, filled);
         this.radius = radius;
     }

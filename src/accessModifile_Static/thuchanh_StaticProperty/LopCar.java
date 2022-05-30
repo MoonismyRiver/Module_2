@@ -1,4 +1,4 @@
-package accessModifile_Static;
+package accessModifile_Static.thuchanh_StaticProperty;
 
 public class LopCar {
     private  String name;

@@ -1,7 +1,14 @@
-package KeThua.ThucHanh_HeDoiTuongHinhHoc;
+package AbstractClass_Interface.Resizeable_lopHinhHoc;
 
-public class Cycle extends Shape{
+import KeThua.ThucHanh_HeDoiTuongHinhHoc.Shape;
+
+public class Cycle extends Shape implements  Resizeable{
     private  double radius=1.0;
+
+    @Override
+    public void resize(double percent) {
+        radius=radius*(100+percent)/100;
+    }
 
     public Cycle() {
 

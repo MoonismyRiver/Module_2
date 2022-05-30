@@ -1,4 +1,5 @@
 package LopVaDoiTuongTrongJava.QuanLiNhanVienDemo;
+
 public class Main {
     public static void main(String[] args) {
         ManageNhanVien manageNhanVien = new ManageNhanVien();

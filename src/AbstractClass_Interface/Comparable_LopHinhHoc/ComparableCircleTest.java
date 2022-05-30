@@ -1,4 +1,6 @@
-package AbstractClass_Interface.Comparator_SosanhLopHinhHoc;
+package AbstractClass_Interface.Comparable_LopHinhHoc;
+import AbstractClass_Interface.Comparable_LopHinhHoc.ComparableCircle;
+
 import java.util.Arrays;
 public class ComparableCircleTest {
 

@@ -1,4 +1,6 @@
-package KeThua.ThucHanh_HeDoiTuongHinhHoc;
+package AbstractClass_Interface.Resizeable_lopHinhHoc;
+
+import KeThua.ThucHanh_HeDoiTuongHinhHoc.Shape;
 
 public class Rectangle extends Shape {
     private double width = 1.0;

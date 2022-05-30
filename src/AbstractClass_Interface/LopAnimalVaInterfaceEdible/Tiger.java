@@ -1,2 +1,8 @@
-package AbstractClass_Interface.LopAnimalVaInterfaceEdible;public class Tiger {
+package AbstractClass_Interface.LopAnimalVaInterfaceEdible;
+
+public class Tiger extends Animal{
+    @Override
+    public String makeSound() {
+        return "Tiger: roarrrrr!";
+    }
 }

@@ -14,6 +14,15 @@ public class Cylinder extends Circle {
     }
 
     @Override
+    public double getArea() {
+        return super.getArea() * 2 + super.getPerimeter() * height;
+    }
+    public double getVolume() {
+        return super.getArea() * this.height;
+
+    }
+
+        @Override
     public String toString() {
         return "Hình trụ{ " +
                 " height = " + height +

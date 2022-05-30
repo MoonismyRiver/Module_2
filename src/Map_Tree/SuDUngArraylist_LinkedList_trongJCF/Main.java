@@ -1,2 +1,4 @@
-package Map_Tree.SuDUngArraylist_LinkedList_trongJCF;public class Main {
+package Map_Tree.SuDUngArraylist_LinkedList_trongJCF;
+
+public class Main {
 }

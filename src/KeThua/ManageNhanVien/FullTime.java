@@ -1,2 +1,4 @@
-package KeThua.ManageNhanVien;public class FullTime {
+package KeThua.ManageNhanVien;
+
+public class FullTime {
 }

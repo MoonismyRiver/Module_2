@@ -1,4 +1,4 @@
-package AbstractClass_Interface.Resizeable_lopHinhHoc;
+package AbstractClass_Interface.Colorable_lopHinhHoc;
 
 import KeThua.ThucHanh_HeDoiTuongHinhHoc.Shape;
 

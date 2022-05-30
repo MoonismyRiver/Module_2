@@ -1,6 +1,6 @@
-package AbstractClass_Interface.Comparator_SosanhLopHinhHoc;
+package AbstractClass_Interface.Comparable_LopHinhHoc;
 
-public class ComparableCircle extends Cycle
+public class ComparableCircle extends Circle
         implements Comparable<ComparableCircle> {
 
     public ComparableCircle() {

@@ -1,7 +1,9 @@
-package KeThua.ThucHanh_HeDoiTuongHinhHoc;
+package AbstractClass_Interface.Resizeable_lopHinhHoc;
 
 
-    public class Square extends Rectangle {
+import KeThua.ThucHanh_HeDoiTuongHinhHoc.Rectangle;
+
+public class Square extends Rectangle {
         public Square() {
         }
 

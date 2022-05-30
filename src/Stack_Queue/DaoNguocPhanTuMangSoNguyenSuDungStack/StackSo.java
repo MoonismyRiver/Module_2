@@ -1,2 +1,13 @@
-package Stack_Queue.DaoNguocPhanTuMangSoNguyenSuDungStack;public class StackSo {
+package Stack_Queue.DaoNguocPhanTuMangSoNguyenSuDungStack;
+
+public class StackSo {
+    public class MyStack<E> {
+        private static final int INITIAL_SIZE = 16;
+        private E[] elements;
+        private int count = 0;
+        public MyStack() {
+            elements = (E[]) new Object[INITIAL_SIZE];
+        }
+    }
+
 }
