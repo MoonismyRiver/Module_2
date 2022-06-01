@@ -26,7 +26,7 @@ public class Car implements Runnable{
         while (runDistance < DISTANCE) {
             try {
                 // Random Speed KM/H
-                int speed = (new Random()).nextInt(20);
+                double speed = Math.random()*20;
                 // Calculate traveled distance
                 runDistance += speed;
                 // Build result graphic

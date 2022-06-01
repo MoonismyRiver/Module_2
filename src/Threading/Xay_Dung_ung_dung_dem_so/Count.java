@@ -5,7 +5,7 @@ public class Count implements Runnable {
 
     public Count() {
         myThread = new Thread(this, "my runnable thread");
-        System.out.println("my thread created" + myThread);
+        System.out.println("Tạo Thread " + myThread);
         myThread.start();
     }
 
